@@ -10,14 +10,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <section className="intro-section">
-          <SelfIntro />
-        </section>
-        <section className="main-info-session">
-          <MainSkills />
-          <Background />
-          <Education />
-        </section>
+
+        <div className="online-resume">
+          <section className="intro-section">
+            <SelfIntro />
+          </section>
+          <section className="main-info-session">
+            <MainSkills />
+            <Background />
+            <Education />
+          </section>
+        </div>
+        
       </div>
     );
   }

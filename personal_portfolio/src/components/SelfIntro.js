@@ -21,6 +21,11 @@ class SelfIntro extends Component {
       			<span>LinkedIn:</span>
       			<a href="https://www.linkedin.com/in/bairon-jvasquez/" >LinkedIn Account</a>
       		</div>
+      		<div className="spe-contact-info">
+      			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      		</div>
       	</div>
       </div>
     );
