@@ -20,6 +20,9 @@
 
   .online-resume .intro-section .SelfIntro{
     width: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .SelfIntro .img-container{
@@ -30,5 +33,33 @@
   .SelfIntro .img-container img{
     width: 100%;
     height: 100%;
+  }
+
+  .SelfIntro .title{
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .SelfIntro .title h1, .SelfIntro .title h3{
+    margin-bottom: 1px;
+    margin-top: 5px;
+  }
+
+  .SelfIntro .title h3{
+    color: #80a1d6;
+  }
+
+  .SelfIntro .contact-info{
+    width: 90%;
+  }
+
+  .SelfIntro .contact-info .spe-contact-info{
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .contact-info .spe-contact-info p{
+    margin: 0;
   }
 }
