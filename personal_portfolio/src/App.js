@@ -15,10 +15,17 @@ class App extends Component {
           <section className="intro-section">
             <SelfIntro />
           </section>
+          <div className="line-breaker">
+            <hr />
+          </div>
           <section className="main-info-session">
-            <MainSkills />
-            <Background />
-            <Education />
+            <div className="into-item" >
+              <MainSkills />
+            </div>
+            <div className="into-item" >
+              <Background />
+              <Education />
+            </div>
           </section>
         </div>
         

@@ -16,6 +16,18 @@
   justify-content: center;
 }
 
+.line-breaker{
+  padding: 0;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.line-breaker hr{
+  height: 0;
+  border: .5px solid #f5f5f5;
+  opacity: .4;
+}
+
 @media (max-width: 736px) {
 
   .online-resume .intro-section .SelfIntro{
@@ -91,4 +103,6 @@
     color: #80a1d6;
     cursor: pointer;
   }
+
+
 }
