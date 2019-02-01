@@ -19,16 +19,15 @@ class App extends Component {
             <hr />
           </div>
           <section className="main-info-session">
-            <div className="into-item" >
+            <div className="info-item" >
               <MainSkills />
             </div>
-            <div className="into-item" >
+            <div className="info-item" >
               <Background />
               <Education />
             </div>
           </section>
         </div>
-        
       </div>
     );
   }

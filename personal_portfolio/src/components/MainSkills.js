@@ -5,67 +5,97 @@ class MainSkills extends Component {
     return (
       <div className="MainSkills">
       	<div className="skill-container">
-	      	<h1>PROGRAMMING SKILLS</h1>
+	      	<h3>PROGRAMMING SKILLS</h3>
 	      	<div className="skill" >
-	      		<h3>HTML5</h3>
+	      		<h4>HTML5</h4>
 	      		<div className="skill-scale-box">
-	      			<div className="skill-scale-color">
+	      			<div className="skill-scale-color html">
+					  90%
 	      			</div>
 	      		</div>
 	      	</div>
 	      	<div className="skill" >
-	      		<h3>CSS3</h3>
+	      		<h4>CSS3</h4>
 	      		<div className="skill-scale-box">
-	      			<div className="skill-scale-color">
+	      			<div className="skill-scale-color css">
+					  90%
 	      			</div>
 	      		</div>
 	      	</div>
 	      	<div className="skill" >
-	      		<h3>Javascript</h3>
+	      		<h4>Javascript</h4>
 	      		<div className="skill-scale-box">
-	      			<div className="skill-scale-color">
+	      			<div className="skill-scale-color js">
+					  90%
 	      			</div>
 	      		</div>
 	      	</div>
 	      	<div className="skill" >
-	      		<h3>NodeJS</h3>
+	      		<h4>NodeJS</h4>
 	      		<div className="skill-scale-box">
-	      			<div className="skill-scale-color">
+	      			<div className="skill-scale-color nodejs">
+					  80%
 	      			</div>
 	      		</div>
 	      	</div>
 	      	<div className="skill" >
-	      		<h3>Java</h3>
+	      		<h4>Java</h4>
 	      		<div className="skill-scale-box">
-	      			<div className="skill-scale-color">
+	      			<div className="skill-scale-color java">
+					  90%
 	      			</div>
 	      		</div>
 	      	</div>
 	      	<div className="skill" >
-	      		<h3>MongoDB</h3>
+	      		<h4>MongoDB</h4>
 	      		<div className="skill-scale-box">
-	      			<div className="skill-scale-color">
+	      			<div className="skill-scale-color mongodb">
+					  80%
 	      			</div>
 	      		</div>
 	      	</div>
 	      	<div className="skill" >
-	      		<h3>Oracle</h3>
+	      		<h4>Oracle</h4>
 	      		<div className="skill-scale-box">
-	      			<div className="skill-scale-color">
+	      			<div className="skill-scale-color oracle">
+					  85%
 	      			</div>
 	      		</div>
 	      	</div>
       	</div>
 
       	<div className="skill-container">
-	      	<h1>FRAMEWORKS AND OTHER TECHNOLOGIES</h1>
-	      	<div className="skill" >
-	      		<h3>HTML5</h3>
-	      		<div className="skill-scale-box">
-	      			<div className="skill-scale-color">
-	      			</div>
+	      	<h3>FRAMEWORKS AND OTHER TECHNOLOGIES</h3>
+	      	<div className="skill flex-container" >
+	      		<h4>React</h4>
+	      		<div className="skill-scale-circle">
+	      			<div className="skill-scale-color react"></div>
+					<div className="skill-scale-color react"></div>
+					<div className="skill-scale-color react"></div>
+					<div className="skill-scale-color react"></div>
+					<div className="skill-scale-color"></div>
 	      		</div>
 	      	</div>
+			<div className="skill flex-container" >
+				<h4>Redux</h4>
+				<div className="skill-scale-circle">
+					<div className="skill-scale-color redux"></div>
+					<div className="skill-scale-color redux"></div>
+					<div className="skill-scale-color redux"></div>
+					<div className="skill-scale-color"></div>
+					<div className="skill-scale-color"></div>
+				</div>
+			</div>
+			<div className="skill flex-container" >
+				<h4>Spring MVC</h4>
+				<div className="skill-scale-circle">
+					<div className="skill-scale-color mvc"></div>
+					<div className="skill-scale-color mvc"></div>
+					<div className="skill-scale-color mvc"></div>
+					<div className="skill-scale-color mvc"></div>
+					<div className="skill-scale-color"></div>
+				</div>
+			</div>
       	</div>
 
       </div>
