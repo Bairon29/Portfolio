@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import './components/css/App.css';
+import './components/css/max-736px.css';
+import './components/css/max-1390px.css';
 
 import SelfIntro from './components/SelfIntro'
 import MainSkills from './components/MainSkills'
