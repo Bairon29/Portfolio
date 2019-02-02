@@ -6,69 +6,69 @@
       flex-direction: column;
       align-items: center;
     }
-  
-    .SelfIntro .img-container{
+
+    .SelfIntro .contact-info .img-container{
       width: 100%;
       height: 350px;
     }
   
-    .SelfIntro .img-container img{
+    .SelfIntro .contact-info .img-container img{
       width: 100%;
       height: 100%;
     }
   
-    .SelfIntro .title{
+    .SelfIntro .contact-info .title{
       margin: 15px 0;
       text-align: center;
     }
   
-    .SelfIntro .title h1, 
-    .SelfIntro .title h3{
+    .SelfIntro .contact-info .title h1, 
+    .SelfIntro .contact-info .title h3{
       margin-bottom: 1px;
       margin-top: 5px;
       font-weight: bolder;
     }
   
-    .SelfIntro .title h3{
+    .SelfIntro .contact-info .title h3{
       color: #80a1d6;
     }
   
     .SelfIntro .contact-info{
-      width: 90%;
+      width: 100%;
     }
   
-    .SelfIntro .contact-info .spe-contact-info{
+    .SelfIntro .spe-contact-info{
       display: flex;
       width: 100%;
       margin: 15px 0;
     }
   
-    .contact-info .spe-contact-info p{
+    .spe-contact-info p{
       margin: 0;
       line-height: 23px;
       /*padding: 10px;*/
     }
   
-    .contact-info .table-contact-info, 
-    .contact-info .table-contact-info tr{
+    .table-contact-info, 
+    .table-contact-info tr{
       width: 100%;
     }
   
-    .contact-info .table-contact-info tr .odd-col{
+    .table-contact-info tr .odd-col{
       width: 30%;
       text-align: right;
       padding: 3px;
       font-weight: bolder;
     }
-    .contact-info .table-contact-info tr .even-col{
+    .table-contact-info tr .even-col{
       width: 100%;
       text-align: left;
       padding: 3px;
       color: #f5f5f5;
     }
   
-    .contact-info .table-contact-info tr .even-col a,
-    .contact-info .table-contact-info tr .even-col a:active{
+    .table-contact-info tr .even-col a,
+    .table-contact-info tr .even-col a:active{
       text-decoration: none;
       color: #80a1d6;
       cursor: pointer;
