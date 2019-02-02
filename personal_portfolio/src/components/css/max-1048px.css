@@ -1,0 +1,239 @@
+@media (min-width: 737px) AND (max-width: 1048px) {
+    .online-resume .intro-section .SelfIntro{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .SelfIntro .img-container{
+      width: 100%;
+      height: 350px;
+    }
+  
+    .SelfIntro .img-container img{
+      width: 100%;
+      height: 100%;
+    }
+  
+    .SelfIntro .title{
+      margin: 15px 0;
+      text-align: center;
+    }
+  
+    .SelfIntro .title h1, 
+    .SelfIntro .title h3{
+      margin-bottom: 1px;
+      margin-top: 5px;
+      font-weight: bolder;
+    }
+  
+    .SelfIntro .title h3{
+      color: #80a1d6;
+    }
+  
+    .SelfIntro .contact-info{
+      width: 90%;
+    }
+  
+    .SelfIntro .contact-info .spe-contact-info{
+      display: flex;
+      width: 100%;
+      margin: 15px 0;
+    }
+  
+    .contact-info .spe-contact-info p{
+      margin: 0;
+      line-height: 23px;
+      /*padding: 10px;*/
+    }
+  
+    .contact-info .table-contact-info, 
+    .contact-info .table-contact-info tr{
+      width: 100%;
+    }
+  
+    .contact-info .table-contact-info tr .odd-col{
+      width: 30%;
+      text-align: right;
+      padding: 3px;
+      font-weight: bolder;
+    }
+    .contact-info .table-contact-info tr .even-col{
+      width: 100%;
+      text-align: left;
+      padding: 3px;
+      color: #f5f5f5;
+    }
+  
+    .contact-info .table-contact-info tr .even-col a,
+    .contact-info .table-contact-info tr .even-col a:active{
+      text-decoration: none;
+      color: #80a1d6;
+      cursor: pointer;
+    }
+  
+    .MainSkills, 
+    .skill-container, 
+    .skill{
+      width: 100%;
+    }
+  
+    .MainSkills .skill-container{
+      width: 98%;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .MainSkills .skill-container h3{
+      text-align: center;
+    }
+  
+    .MainSkills .skill-container .skill{
+      margin: 15px 0;
+      width: 98%;
+      padding: 3px;
+    }
+    .MainSkills .skill-container .skill h4{
+      margin: 3px;
+      margin-left: 0;
+    }
+  
+    .MainSkills .skill-container .skill .skill-scale-box{
+      background-color: #41454c;
+      width: 100%;
+    }
+  
+    .skill .skill-scale-box .skill-scale-color{
+      text-align: right;
+    }
+  
+    .flex-container{
+      display: flex;
+      justify-content: space-between;
+    }
+    .skill .skill-scale-circle{
+      width: 60%;
+      margin-right: 15px;
+      display: flex;
+      justify-content: flex-end;
+      justify-self: end;
+    }
+    .skill .skill-scale-circle .skill-scale-color{
+      width: 30px;
+      height: 30px;
+      margin: 0 5px;
+      border-radius: 50%;
+      background-color: #41454c;
+    }
+  
+    .html{
+      background-color: #669af4;
+      width: 90%;
+    }
+    .css{
+      background-color: #8defcb;
+      width: 90%;
+    }
+    .js{
+      background-color: #ddf9ac;
+      width: 90%;
+    }
+    .nodejs{
+      background-color: #87ed5e;
+      width: 80%;
+    }
+    .java{
+      background-color: #ff6375;
+      width: 90%;
+    }
+    .mongodb{
+      background-color: #f477e4;
+      width: 80%;
+    }
+    .oracle{
+      background-color: #c284f4;
+      width: 85%;
+    }
+  
+    .react{
+      background-color: #0e845f !important;
+      /* width: 85%; */
+    }
+    .redux{
+      background-color: #113f89 !important;
+      /* width: 80%; */
+    }
+    .mvc{
+      background-color: #891145 !important;
+      /* width: 85%; */
+    }
+  
+  
+  
+  
+    .Background{
+      width: 100%;
+      margin: 40px 0;
+    }
+    .Background h3,
+    .Background h4{
+      margin: 0;
+    }
+    .Background .back-container{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 20px 0;
+    }
+    .Background .back-container .back-header{
+      flex-grow: 1;
+      background-color: #41454c;
+      padding: 10px 5px;
+    }
+    /* .Background .back-container .back-header h3{
+      margin: 0;
+    } */
+    .Background .back-container .exp-img{
+      width: 35px;
+      height: 35px;
+      border-radius: 5px;
+      background-color: #80a1d6;
+      padding: 3px;
+    }
+    .Background .back-container .exp-img img,
+    .role .col-img img{
+      width: 100%;
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      /* background-size: cover; */
+    }
+  
+    .exp-collection .title-date .role{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin: 10px 0;
+    }
+    .exp-collection{
+      margin: 30px 0;
+    }
+    .exp-collection .title-date .role h4{
+      width: 100%;
+    }
+    .exp-collection .title-date .role .col-img{
+      width: 20px;
+      height: 20px;
+      border-radius: 3px;
+      background-color: #80a1d6;
+      padding: 3px;
+      margin-right: 5px;
+    }
+  
+    .edu-img{
+      background-color: #87ed5e !important;
+    }
+  }
