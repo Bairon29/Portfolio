@@ -21,10 +21,10 @@ class App extends Component {
             <hr />
           </div>
           <section className="main-info-session">
-            <div className="info-item" >
+            <div className="info-item item-one" >
               <MainSkills />
             </div>
-            <div className="info-item" >
+            <div className="info-item item-two" >
               <Background />
               <Education />
             </div>

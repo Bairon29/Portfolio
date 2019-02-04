@@ -1,5 +1,28 @@
 @media (min-width: 737px) AND (max-width: 1048px) {
-    .online-resume .intro-section .SelfIntro{
+  /* begin break seesion */
+  .main-info-session{
+    display: block;
+  }
+  
+  .item-one,
+  .item-two{
+    order: none;
+    width: 100%;
+  }
+  .mid-use{
+    display: block;
+  }
+  /* end break session */
+  
+  .App{
+    background-color: rgb(44, 44, 45);
+  }
+  .online-resume{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 130%;
+  } 
+  .online-resume .intro-section .SelfIntro{
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -7,8 +30,9 @@
     }
   
     .SelfIntro .img-container{
-      width: 100%;
+      width: 60%;
       height: 350px;
+      margin-top: 10px;
     }
   
     .SelfIntro .img-container img{
@@ -34,11 +58,19 @@
   
     .SelfIntro .contact-info{
       width: 90%;
-    }
-  
-    .SelfIntro .contact-info .spe-contact-info{
       display: flex;
-      width: 100%;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .mid-use{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .SelfIntro .spe-contact-info{
+      display: flex;
+      width: 90%;
       margin: 15px 0;
     }
   
@@ -122,8 +154,8 @@
       justify-self: end;
     }
     .skill .skill-scale-circle .skill-scale-color{
-      width: 30px;
-      height: 30px;
+      width: 25px;
+      height: 25px;
       margin: 0 5px;
       border-radius: 50%;
       background-color: #41454c;
@@ -197,8 +229,8 @@
       margin: 0;
     } */
     .Background .back-container .exp-img{
-      width: 35px;
-      height: 35px;
+      width: 45px;
+      height: 45px;
       border-radius: 5px;
       background-color: #80a1d6;
       padding: 3px;
@@ -225,8 +257,8 @@
       width: 100%;
     }
     .exp-collection .title-date .role .col-img{
-      width: 20px;
-      height: 20px;
+      width: 30px;
+      height: 30px;
       border-radius: 3px;
       background-color: #80a1d6;
       padding: 3px;

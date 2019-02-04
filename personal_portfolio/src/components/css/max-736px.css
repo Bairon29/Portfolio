@@ -1,5 +1,27 @@
 @media (max-width: 736px) {
-
+     /* begin break seesion */
+    .main-info-session{
+      display: block;
+    }
+    
+    .item-one,
+    .item-two{
+      order: none;
+      width: 100%;
+    }
+    .main-info-session{
+      display: block;
+    }
+    /* end break session */
+    .App{
+      background-color: rgb(44, 44, 45);
+    }
+    .online-resume{
+      background-color: rgb(44, 44, 45);
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
     .online-resume .intro-section .SelfIntro{
       width: 100%;
       display: flex;
@@ -10,6 +32,7 @@
     .SelfIntro .contact-info .img-container{
       width: 100%;
       height: 350px;
+      margin: 0;
     }
   
     .SelfIntro .contact-info .img-container img{
@@ -39,8 +62,9 @@
   
     .SelfIntro .spe-contact-info{
       display: flex;
-      width: 100%;
+      width: 90%;
       margin: 15px 0;
+      text-align: center;
     }
   
     .spe-contact-info p{
@@ -106,7 +130,9 @@
       background-color: #41454c;
       width: 100%;
     }
-  
+    .skill{
+      font-size: 105%;
+    }
     .skill .skill-scale-box .skill-scale-color{
       text-align: right;
     }

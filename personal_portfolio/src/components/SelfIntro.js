@@ -9,6 +9,7 @@ class SelfIntro extends Component {
 					<div className="img-container">
 						<img src={me} alt="Professional" />
 					</div>
+					<div className="mid-use">
 					<div className="title">
 						<h1>Bairon J. Vasquez</h1>
 						<h3>Software Engineer</h3>
@@ -26,10 +27,14 @@ class SelfIntro extends Component {
       			</tbody>
       		</table>
 				</div>
+				</div>
 				<div className="spe-contact-info">
 					<p>
 						{/* bio */}
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						A motivated Jr. Full Stack Developer with strong problem solving and team player capabilities. An
+open-minded web designer with an eye for creativity and the ability to adapt to different ideas when
+working with a team. Having studied Computer Science, I bring a unique understanding and skills
+set to my current work as a Jr. developer, which I’m looking to offer to an innovated team.
 					</p>
 				</div>
       </div>
